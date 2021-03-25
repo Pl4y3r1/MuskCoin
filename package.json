@@ -1,18 +1,18 @@
 {
-  "name": "naivecoin",
-  "version": "0.0.2",
-  "description": "Naivecoin, a cryptocurrency demonstration",
-  "homepage": "https://github.com/conradoqg/naivecoin",
+  "name": "MuskCoin",
+  "version": "0.0.1",
+  "description": "MuskCoin, a cryptocurrency based off of NaiveCoin",
+  "homepage": "https://github.com/Pl4y3r1/MuskCoin",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/conradoqg/naivecoin.git"
+    "url": "https://github.com/Pl4y3r1/MuskCoin.git"
   },
   "bin": {
-    "naivecoin": "bin/naivecoin.js"
+    "MuskCoin": "bin/MuskCoin.js"
   },
   "scripts": {
-    "start": "node bin/naivecoin.js",
+    "start": "node bin/MuskCoin.js",
     "compose:up": "docker-compose up",
     "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
     "coverage": "nyc --reporter=lcov --reporter=text --clean node node_modules/mocha/bin/_mocha -u bdd --colors test/",

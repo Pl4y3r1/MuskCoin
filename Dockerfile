@@ -1,9 +1,9 @@
 FROM node:6
 
-VOLUME /naivecoin
+VOLUME /MuskCoin
 
-WORKDIR /naivecoin
+WORKDIR /MuskCoin
 
-ENTRYPOINT node bin/naivecoin.js
+ENTRYPOINT node bin/MuskCoin.js
 
 EXPOSE 3001
